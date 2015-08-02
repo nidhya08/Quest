@@ -1,0 +1,1 @@
+﻿select dense_rank() over(order by votes desc) as rank,name,votes from votes order by rank;
